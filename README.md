@@ -8,7 +8,7 @@
 | :------------------- | -----------------  |-----------------|-----------------|-----------------:  
 | RandomForestClassifier    |      0.972         |0.951             |0.871|      0.871
 | LogisticRegression|      0.884         |0.651              |0.776      |[[57253 13534]
-                                                                          [ 3676  2415]]
+| LogisticRegression|              |              |      |                [ 3676  2415]]
 | XGBClassifier             |      0.974         |0.938              |0.871
 | HistGradientClassifier            |      0.984         |0.951              |0.899
 - Then I used **random undersampling** to build ML model , It gave me good results and I continued feature selection with the undersampled dataset and found out that 3 features were enough to classify 'class-0' and 'class-1'.Ref **financial_risk_ML_undersampling_feature_selection.ipynb** .
