@@ -6,7 +6,7 @@
 - ## Classification ROCAUC score and Accuracy Table for oversampled dataset
 |    Model             |  Train(ROC-AUC)   |  Test(ROC-AUC)   |Accuracy |Confusion matrix
 | :------------------- | -----------------  |-----------------|-----------------|-----------------:  
-| RandomForestClassifier    |      0.971         |0.680             |0.899|   | [[68683  2104]   |
+| RandomForestClassifier    |      0.971         |0.680             |0.899|   [[68683  2104]   |
 |      -         |-             |-| -|                                           [ 5602   489]]    |
 | LogisticRegression|      0.884         |0.651              |0.776      |[[57253 13534]| 
 |      -        |         -     |   -   |      -|          [ 3676  2415]]|
