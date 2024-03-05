@@ -6,10 +6,11 @@
 - ## Classification ROCAUC score and Accuracy Table for oversampled dataset
 |    Model             |  Train(ROC-AUC)   |  Test(ROC-AUC)   |Accuracy |Confusion matrix
 | :------------------- | -----------------  |-----------------|-----------------|-----------------:  
-| RandomForestClassifier    |      0.971         |0.680             |0.899|   | [[68683  2104] |
-| RandomForestClassifier    |      -         |-             |-|                 [ 5602   489]]|
+| RandomForestClassifier    |      0.971         |0.680             |0.899|   |
+| [[68683  2104]   |      -         |-             |-|   
+|[ 5602   489]]    |  -         |-             |-|
 | LogisticRegression|      0.884         |0.651              |0.776      |[[57253 13534]|
-| LogisticRegression|      -        |         -     |   -   |                [ 3676  2415]]|
+| LogisticRegression|      -        |         -     |   -   |                |[ 3676  2415]]|
 | XGBClassifier             |      0.981         |0.752              |0.922 |[[70581   206]|
 | XGBClassifier             |     -         |-              |- | [ 5927   164]]|
 | HistGradientClassifier            |     0.981         |0.751              |0.920| [[70668   119]|
@@ -28,7 +29,7 @@
 |    Model             |  Train(ROC-AUC)   |  Test(ROC-AUC)   |Accuracy |Confusion matrix
 | :------------------- | -----------------  |-----------------|-----------------|-----------------:  
 | RandomForestClassifier    |      0.984         |0.977             |0.958|   | [[7401    0]
-| RandomForestClassifier    |      -         |-             |-|                 [ 624 6824]]
+| RandomForestClassifier    |      -         |-             |-|                | [ 624 6824]]
 | LogisticRegression|      0.967         |0.968              |0.946      |[[7332   69]
 | LogisticRegression|      -        |         -     |   -   |                [ 720 6728]]
 | XGBClassifier             |      0.979         |0.975              |0.956 |[[7380   21]
