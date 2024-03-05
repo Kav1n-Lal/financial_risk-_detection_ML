@@ -6,16 +6,16 @@
 - ## Classification ROCAUC score and Accuracy Table for oversampled dataset
 |    Model             |  Train(ROC-AUC)   |  Test(ROC-AUC)   |Accuracy |Confusion matrix
 | :------------------- | -----------------  |-----------------|-----------------|-----------------:  
-| RandomForestClassifier    |      0.971         |0.680             |0.899|   | [[68683  2104]
-| RandomForestClassifier    |      -         |-             |-|                 [ 5602   489]]
-| LogisticRegression|      0.884         |0.651              |0.776      |[[57253 13534]
-| LogisticRegression|      -        |         -     |   -   |                [ 3676  2415]]
-| XGBClassifier             |      0.981         |0.752              |0.922 |[[70581   206]
-| XGBClassifier             |     -         |-              |- | [ 5927   164]]
-| HistGradientClassifier            |     0.981         |0.751              |0.920| [[70668   119]
-| HistGradientClassifier            |    -         |-              |-|               [ 5992    99]]
-| CatBoostClassifier            |     0.894         |0.660              |0.805| [[59895 10892]
-| CatBoostClassifier            |    -         |-              |-|               [ 4065  2026]]
+| RandomForestClassifier    |      0.971         |0.680             |0.899|   | [[68683  2104] |
+| RandomForestClassifier    |      -         |-             |-|                 [ 5602   489]]|
+| LogisticRegression|      0.884         |0.651              |0.776      |[[57253 13534]|
+| LogisticRegression|      -        |         -     |   -   |                [ 3676  2415]]|
+| XGBClassifier             |      0.981         |0.752              |0.922 |[[70581   206]|
+| XGBClassifier             |     -         |-              |- | [ 5927   164]]|
+| HistGradientClassifier            |     0.981         |0.751              |0.920| [[70668   119]|
+| HistGradientClassifier            |    -         |-              |-|               [ 5992    99]]|
+| CatBoostClassifier            |     0.894         |0.660              |0.805| [[59895 10892]|
+| CatBoostClassifier            |    -         |-              |-|               [ 4065  2026]]|
 - Then I used **random undersampling** to build ML model , It gave me good results and I continued feature selection with the undersampled dataset and found out that 3 features were enough to classify 'class-0' and 'class-1'.Ref **financial_risk_ML_undersampling_feature_selection.ipynb** .
 - Those features are **'SK_ID_CURR', EXT_SOURCE_2, EXT_SOURCE_3**
 - 'SK_ID_CURR'-ID of loan in our sample
