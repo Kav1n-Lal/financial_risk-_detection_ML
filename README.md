@@ -1,4 +1,6 @@
 # financial_risk-_detection_ML
+- Dataset application.csv -[https://drive.google.com/file/d/1Q2gIMdAUcf8_xJMHAToyO0q8tEmJF-Lu/view]
+- Dataset previous_application.csv-[https://drive.google.com/file/d/1tzJcoOQpT1fKWCS60roovjMo39ZYtPVr/view]
 ### Project demo part_1(oversampling)-[https://drive.google.com/file/d/1C62MNEN055hxGJgPW_7zCFOOh1TebDWT/view?usp=sharing]
 ### Project demo part_2(undersampling)-[https://drive.google.com/file/d/1YoQBcpMOENVigZRovJqLaSdvNLg8cV0z/view?usp=sharing]
 - This aim of this project is to build a ML classification model to classify people who default and dont default loan payments using historical data.
